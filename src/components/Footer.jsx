@@ -6,8 +6,11 @@ import { PiWhatsappLogoThin } from "react-icons/pi";
 
 const Footer = () => {
   return (
-    <footer id="contacto" className="flex justify-center items-center flex-col">
-      <nav className="flex w-screen h-24 bg-slate-50 justify-center gap-10 items-center">
+    <footer
+      id="contacto"
+      className="flex justify-center items-center flex-col bg-slate-50"
+    >
+      <nav className="flex w-screen h-24 justify-center gap-10 items-center">
         <a
           className="transition-transform duration-200 hover:scale-125 cursor-pointer"
           href="https://www.instagram.com/kenitos.gourmet/"
