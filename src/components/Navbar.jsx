@@ -71,7 +71,7 @@ export const Navbar = () => {
               className="transition-transform duration-200 hover:scale-110 mr-5 cursor-pointer"
               offset={-64}
             >
-              Contactanos
+              Contacto
             </Link>
           </span>
         )}
