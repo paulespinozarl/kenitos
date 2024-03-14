@@ -42,7 +42,9 @@ const Footer = () => {
       </nav>
       <div className="flex justify-center items-center mb-6">
         <MdOutlineLocationOn size={13} />
-        <span className="ml-2">Diputado Pedrera 1790 V. Alsina.</span>
+        <span className="ml-2 text-sm lg:text-md">
+          Diputado Pedrera 1790 V. Alsina.
+        </span>
       </div>
       <div className="text-xs mb-2 flex justify-center items-center">
         <small className="mr-1">Desarrollado por Paul Espinoza |</small>
