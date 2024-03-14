@@ -6,7 +6,7 @@ const Products = () => {
       <h3 className="w-sreen h-[30vh] text-5xl flex justify-center items-center">
         Productos
       </h3>
-      <div className="grid grid-cols-4 grid-rows-1">
+      <div className="grid grid-cols-2 lg:grid-cols-4 grid-rows-1">
         <div className="relative">
           <img
             src={queso1}
