@@ -1,3 +1,5 @@
+import { pretzel3 } from "../../public";
+
 const Landing = () => {
   return (
     <section
@@ -5,7 +7,7 @@ const Landing = () => {
       className="relative w-full h-calc-64 bg-slate-800 mt-16"
     >
       <img
-        src="../public/pretzel-3.jpg"
+        src={pretzel3}
         alt="bg"
         className="object-cover w-full h-full opacity-60"
       />

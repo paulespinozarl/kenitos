@@ -1,11 +1,13 @@
+import { pancho1, papa1, pretzel7, queso1 } from "../../public";
+
 const Products = () => {
   return (
     <div id="products" className="w-screen h-full  kalam-regular">
       <div className="grid grid-cols-4 grid-rows-1">
         <div className="relative">
           <img
-            src="../public/queso-1.jpg"
-            alt=""
+            src={queso1}
+            alt="queso1"
             className="w-full h-full opacity-100 hover:opacity-80 transition-opacity duration-300"
           />
           <div className="absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100 transition-opacity duration-300 flex justify-center items-center bg-black bg-opacity-50">
@@ -16,8 +18,8 @@ const Products = () => {
         </div>
         <div className="relative">
           <img
-            src="../public/pancho-1.jpg"
-            alt=""
+            src={pancho1}
+            alt="pancho1"
             className="w-full h-full opacity-100 hover:opacity-80 transition-opacity duration-300"
           />
           <div className="absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100 transition-opacity duration-300 flex justify-center items-center bg-black bg-opacity-50">
@@ -26,8 +28,8 @@ const Products = () => {
         </div>
         <div className="relative">
           <img
-            src="../public/papa-1.jpg"
-            alt=""
+            src={papa1}
+            alt="papa1"
             className="w-full h-full opacity-100 hover:opacity-80 transition-opacity duration-300"
           />
           <div className="absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100 transition-opacity duration-300 flex justify-center items-center bg-black bg-opacity-50">
@@ -36,8 +38,8 @@ const Products = () => {
         </div>
         <div className="relative">
           <img
-            src="../public/pretzel-7.jpg"
-            alt=""
+            src={pretzel7}
+            alt="pretzel7"
             className="w-full h-full opacity-100 hover:opacity-80 transition-opacity duration-300"
           />
           <div className="absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100 transition-opacity duration-300 flex justify-center items-center bg-black bg-opacity-50">
