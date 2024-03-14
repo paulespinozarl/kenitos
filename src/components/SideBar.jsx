@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 
 const sections = [
-  { id: "nosotros", text: "Sobre nosotros" },
+  { id: "nosotros", text: "Nosotros" },
   { id: "products", text: "Productos" },
   { id: "contacto", text: "Contacto" },
 ];
